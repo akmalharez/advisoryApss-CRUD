@@ -12,12 +12,16 @@ This API allows user and admin login functionality and provides CRUD operations 
    ```bash
    npm install
    ```
-3. Start the server by running:
+3. Migrate the database using Sequelize
+   ```bash
+   npx sequelize db:migrate
+   ```    
+4. Start the server by running:
    ```bash
    node index.js
    ```
-4. Ensure the database is populated with data for the endpoints to work properly.
-5. Test the API using [Postman](https://www.postman.com/).
+5. Ensure the database is populated with data for the endpoints to work properly.
+6. Test the API using [Postman](https://www.postman.com/).
 
 ---
 
