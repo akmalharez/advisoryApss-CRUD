@@ -66,7 +66,8 @@ http://localhost:3000/api
 
 1. Open Postman and create a new collection.
 2. Add the above endpoints with their respective HTTP methods.
-3. For POST and PUT requests, include the required payload in JSON format in the body section.
-4. Ensure the database has relevant data before testing endpoints.
-5. Execute the requests and verify the responses for each endpoint.
+3. Include the Bearer Token obtain from login in the Authorization tab for request after login.
+4. For POST and PUT requests, include the required payload in JSON format in the body section.
+5. Ensure the database has relevant data before testing endpoints.
+6. Execute the requests and verify the responses for each endpoint.
 
